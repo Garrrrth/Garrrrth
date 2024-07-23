@@ -1,9 +1,23 @@
-/**
-* Template Name: KnightOne - v4.7.0
-* Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+.project-title {
+
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+.project-image {
+  width: 385px;
+  height: auto; /* Fixed height for the images */
+  object-fit: cover; /* Ensures the image covers the div without distortion */
+}
+
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 
 /*--------------------------------------------------------------
 # General
@@ -83,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0000CD;
+  background: #3b3b41;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -348,7 +362,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/grey-wallpape.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -1154,7 +1167,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0f0f0f;
+  background: rgba(15, 15, 15, 0.9);
   color: #fff;
   font-size: 14px;
   text-align: center;
